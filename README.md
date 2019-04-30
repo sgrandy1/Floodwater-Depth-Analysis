@@ -14,7 +14,7 @@ FEMA flood zone data has important implications, especially in regard to flood i
 The three tools are presented in the toolbox as three parts of the overall analysis: a projection and clip of the FEMA Flood Hazard Zones data to an area of interest, the conversion of this output to a BFE raster dataset, and two raster calculations to determine FEMA water depth and depth difference. Specific details for each tool are noted below:
 
 * Step 1: FEMA AOI Clip
- *This tool projects the FEMA Flood Hazards feature class for Rhode Island into Rhode Island State Plane Feet. The projected feature class is then clipped to the input area of interest boundaries." 
+ * This tool projects the FEMA Flood Hazards feature class for Rhode Island into Rhode Island State Plane Feet. The projected feature class is then clipped to the input area of interest boundaries." 
 * Step 2:
 
 
