@@ -14,10 +14,10 @@ FEMA flood zone data has important implications, especially in regard to flood i
 The three tools are presented in the toolbox as three parts of the overall analysis: a projection and clip of the FEMA Flood Hazard Zones data to an area of interest, the conversion of this output to a BFE raster dataset, and two raster calculations to determine FEMA water depth and depth difference. Specific details for each tool are noted below:
 
 * Step 1: FEMA AOI Clip
-  * This tool projects the FEMA Flood Hazards feature class for Rhode Island into Rhode Island State Plane Feet. The projected feature class is then clipped to the input area of interest boundaries." 
+  * This tool projects the FEMA Flood Hazards feature class for Rhode Island into Rhode Island State Plane Feet. The projected feature class is then clipped to the input area of interest boundaries. 
 * Step 2: FEMA BFE
-  * This tool takes the FEMA area of interest clip output from Step 1 and converts the feature class into a base flood elevation raster dataset based on the attribute 'STATIC_BFE'. This raster dataset is then reclassified to remove areas that do not undergo flooding. NOTE: FEMA BFE raster dataset that is created has a pixel size of 30.
+  * This tool takes the FEMA area of interest clip output from Step 1 and converts the feature class into a base flood elevation raster dataset based on the attribute 'STATIC_BFE'. This raster dataset is then reclassified to remove areas that do not undergo flooding. *NOTE:* FEMA BFE raster dataset that is created has a pixel size of 30.
 * Step 3: Depth and Depth Diff
-  * This tool uses the FEMA Base Flood Elevation raster dataset from Step 2 to produce two floodwater depth raster datasets. The first raster dataset showcases floodwater depth based on the difference of FEMA BFE and the input DEM raster. The second raster dataset showcases additional floodwater depth from a given sea level rise scenario based on the difference of the input sea level rise floodwater depth and the FEMA floodwater depth output. NOTE: input raster datasets should have a pixel size of 30 to undergo raster calculations with FEMA BFE from Step 2.
+  * This tool uses the FEMA Base Flood Elevation raster dataset from Step 2 to produce two floodwater depth raster datasets. The first raster dataset showcases floodwater depth based on the difference of FEMA BFE and the input DEM raster. The second raster dataset showcases additional floodwater depth from a given sea level rise scenario based on the difference of the input sea level rise floodwater depth and the FEMA floodwater depth output. *NOTE:* input raster datasets should have a pixel size of 30 to undergo raster calculations with FEMA BFE from Step 2.
 
 
