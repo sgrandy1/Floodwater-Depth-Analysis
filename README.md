@@ -27,10 +27,11 @@ The three tools are presented in the toolbox as three parts of the overall analy
 **Important Note:** The tools included in this toolbox are modified to work with the sample data included in the repository. The SLR water depth included in the sample data has been resampled to a smaller data size (from a 3.2808 pixel size 30 pixel size) to more easily demo the tools in the toolbox. Because all CRC sea level rise depth data is originally in a 3.2808 pixel size, when conducting the depth analyses, the script should be modified to create a raster in this pixel size and the input raster elevation data should be in this pixel size as well.
 
 **Sample data included:**  
-                           * FEMA Flood Zones: *FEMA_Flood_Hazard_Areas.shp*
-                           * Area of Interest: *South_Kingstown_Boundary.shp* 
-                           * Area of Interest DEM (elevation data): *skdem*
-                           * Sea Level Rise Floodwater Depth: *slr3_depth* 
+
+* FEMA Flood Zones: *FEMA_Flood_Hazard_Areas.shp*
+* Area of Interest: *South_Kingstown_Boundary.shp*
+* Area of Interest DEM (elevation data): *skdem*
+* Sea Level Rise Floodwater Depth: *slr3_depth* 
 
 *All data is from RIGIS excluding slr3_depth which is from URI CRC*
 
