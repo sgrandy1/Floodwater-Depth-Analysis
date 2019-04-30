@@ -31,7 +31,7 @@ The three tools are presented in the toolbox as three parts of the overall analy
 * FEMA Flood Zones: *FEMA_Flood_Hazard_Areas.shp*
 * Area of Interest: *South_Kingstown_Boundary.shp*
 * Area of Interest DEM (elevation data): *skdem*
-* Sea Level Rise Floodwater Depth: *slr3_depth* 
+* Sea Level Rise Floodwater Depth: *slr3_depth* (sea level rise scenario of 3 feet) 
 
 *All data is from RIGIS excluding slr3_depth which is from URI CRC*
 
