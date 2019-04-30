@@ -2,6 +2,7 @@
 *Python Toolbox for Floodwater Depth Analysis of Rhode Island Coast*
 
 Author: Sean Grandy, 4/30/2019
+
 All tools released under MIT license, and no warranty is implied
 
 ### Background Information
